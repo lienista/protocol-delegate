@@ -21,6 +21,7 @@
 		FC0C7B981868C6E100C87743 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0C7B7A1868C6E100C87743 /* UIKit.framework */; };
 		FC0C7BA01868C6E100C87743 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC0C7B9E1868C6E100C87743 /* InfoPlist.strings */; };
 		FC0C7BA21868C6E100C87743 /* SampleDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0C7BA11868C6E100C87743 /* SampleDelegateTests.m */; };
+		FC0C7BAD1868C71400C87743 /* SampleProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0C7BAC1868C71400C87743 /* SampleProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FC0C7B9D1868C6E100C87743 /* SampleDelegateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleDelegateTests-Info.plist"; sourceTree = "<group>"; };
 		FC0C7B9F1868C6E100C87743 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC0C7BA11868C6E100C87743 /* SampleDelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleDelegateTests.m; sourceTree = "<group>"; };
+		FC0C7BAB1868C71400C87743 /* SampleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleProtocol.h; sourceTree = "<group>"; };
+		FC0C7BAC1868C71400C87743 /* SampleProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleProtocol.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				FC0C7B851868C6E100C87743 /* SampleDelegateAppDelegate.h */,
 				FC0C7B861868C6E100C87743 /* SampleDelegateAppDelegate.m */,
 				FC0C7B881868C6E100C87743 /* Main.storyboard */,
+				FC0C7BAB1868C71400C87743 /* SampleProtocol.h */,
+				FC0C7BAC1868C71400C87743 /* SampleProtocol.m */,
 				FC0C7B8B1868C6E100C87743 /* SampleDelegateViewController.h */,
 				FC0C7B8C1868C6E100C87743 /* SampleDelegateViewController.m */,
 				FC0C7B8E1868C6E100C87743 /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				FC0C7B8D1868C6E100C87743 /* SampleDelegateViewController.m in Sources */,
 				FC0C7B831868C6E100C87743 /* main.m in Sources */,
 				FC0C7B871868C6E100C87743 /* SampleDelegateAppDelegate.m in Sources */,
+				FC0C7BAD1868C71400C87743 /* SampleProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
